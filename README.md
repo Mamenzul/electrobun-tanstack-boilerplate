@@ -21,11 +21,12 @@ A high-performance, enterprise-grade desktop application boilerplate. This templ
 ## ✨ Key Features
 
 - **Lightning Fast HMR:** Powered by Vite and Electrobun's dev server integration.
-- **Type-Safe RPC:** Seamless communication between the Bun (Main) process and the WebView.
-- **Persistent Storage:** Built-in SQLite database with Drizzle ORM for type-safe migrations and queries.
+- **Type-Safe RPC:** Seamless communication between your Bun backend and React frontend.
+- **Persistent Storage:** Built-in SQLite database with Drizzle ORM. Data is stored in `~/.electrobun-react-tailwind-vite/sqlite.db` by default. You can customize this path using the `SQLITE_DB_PATH` environment variable in a `.env` file.
 - **Modern Routing:** File-based routing with TanStack Router.
 - **TDD Ready:** Pre-configured Vitest setup for testing both UI and database logic.
 - **Responsive UI:** Modern components with shadcn/ui and Tailwind CSS v4.
+
 
 ## 🛠️ Getting Started
 
