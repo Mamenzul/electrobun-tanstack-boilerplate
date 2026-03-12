@@ -26,6 +26,7 @@ A high-performance, enterprise-grade desktop application boilerplate. This templ
 - **Modern Routing:** File-based routing with TanStack Router.
 - **TDD Ready:** Pre-configured Vitest setup for testing both UI and database logic.
 - **Responsive UI:** Modern components with shadcn/ui and Tailwind CSS v4.
+- **GitHub Actions CI:** Automated linting, type-checking, and testing on every push and pull request.
 
 
 ## 🛠️ Getting Started

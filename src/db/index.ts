@@ -10,7 +10,7 @@ const defaultDbDir = path.join(os.homedir(), ".electrobun-react-tailwind-vite");
 const defaultDbPath = path.join(defaultDbDir, "sqlite.db");
 
 // Use SQLITE_DB_PATH from env if provided, otherwise use the default
-const dbPath = process.env.SQLITE_DB_PATH || defaultDbPath;
+const dbPath = process.env.SQLITE_DB_PATH ?? defaultDbPath;
 const dbDir = path.dirname(dbPath);
 
 if (!fs.existsSync(dbDir)) {
