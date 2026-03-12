@@ -1,0 +1,47 @@
+# Runtime & Package Manager
+node_modules/
+bun.lock
+*.log
+.bun-cache/
+
+# Electrobun Build & Desktop
+build/
+dist/
+*.app/
+*.exe
+*.dmg
+*.deb
+*.rpm
+*.asar
+
+# Database (SQLite & Drizzle)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+.drizzle/
+!drizzle/
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+
+# TanStack
+.tanstack/
+
+# Agents
+.agents/
+
+#IA 
+FEATURES.md
